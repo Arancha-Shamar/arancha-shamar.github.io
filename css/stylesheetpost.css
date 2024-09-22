@@ -1,0 +1,187 @@
+.column {
+    float: left;
+    width: 2%;
+    padding: 5px;
+  }
+
+ nav {
+    /* Här ligger min navbar som jag skappade en egen div för. Min navbar har en höjd, Bakgrund, Självklart centrerad samt en display flex. Sen finns redd och border m.m */
+    height: 70px;
+    background: #8291b7;
+    padding: 3px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    box-shadow: 0px 0px 20px black;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 135px;
+  }
+  
+  .socialsimg {
+    width: 25px;
+    padding: 0.5px;
+  }
+
+  .logo {
+    width: 100px;
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+    opacity: 1;
+    padding: 25px;
+  }
+
+  .searchbar {
+    font-size: large;
+    text-decoration: none;
+    font-family: cursive;
+  }
+  
+  a.searchbar:hover {
+    background: rgb(17, 138, 159);
+    color: white;
+    cursor: pointer;
+    border: double;
+    border-color: rgb(24, 27, 219);
+    border-radius: 10px;
+  }
+  
+  .searchbarh1 {
+    text-align: left;
+  }
+  
+  .search {
+    padding: 5px;
+    margin-left: 100px;
+    border: 1px solid red;
+    width: 225px;
+    text-align: left;
+    background-color: rgb(21, 105, 183);
+    float: right;
+  }
+  
+  
+  .searchborder {
+    background-color: red;
+  }
+
+  .pnamnet {
+    margin-right: 10%;
+  }
+
+  .namnet {
+    background: #343568;
+    display: center;
+    text-align: center;
+    height: 150px;
+    margin: 0;
+    padding: 3px;
+    box-shadow: 0px 0px 20px black;
+    color: #ffffff;
+  }
+
+  .image {
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 200px;
+  }
+
+  .blogtitle {
+    display: flex;
+    justify-content: left;
+    margin-left: 200px;
+  }
+
+  .blogtext {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    margin-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    width: 1100px;
+  }
+
+  .imgtext {
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding: 15px;
+    width: 700px;
+  }
+
+  .fot footer { /* Här ligger min footer som jag även har bakgrundsfärgen i och kanterna på min border samt centrerat den.*/
+    display: flex;
+    justify-content: center;
+    background: #343568;
+    width: 100%;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+  }
+  
+  .fot footer section { /* Här ligger texten till min footer. Där jag använd padding/margin för att göra finare samt valt färg och justerat plats på texten via flexbox.*/
+    padding: 5px;
+    margin: 2px;
+    flex: auto;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
+  .fot footer a { /* Här ligger min högra samt vänstra text i footern. Dom ligger i en .a för att kunna bifoga länkar. Ligger även färg, Flexbox justeringar, Samt så tog jag bort strecket under.*/
+    padding: 5px;
+    margin: 2px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fot footer a:hover { /* Här ligger men hover över texten i footern. Så att jag får en fin bakgrund när jag har musen över. Samt border typ och storlek.*/
+    background: rgb(80, 78, 78);
+    border-radius: 5px;
+    border-style: double;
+    border-color: rgb(179, 54, 23);
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .wrapper {
+    background-color: #70acca;
+    margin: 0;
+    padding: 25px;
+  }
+
+  .htmlimage {
+    box-shadow: 3px 3px 3px black;
+    width: 250px;
+    height: 150px;
+    margin-top: 40px;
+  }
+
+  .authorinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    background-color: gray;
+    margin: 5px;
+    width: 500px;
+    margin-left: 200px;
+  }
+
+  .authortext1, .authortext2, .authortext3, .authortext4 {
+    margin-left: 200px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+

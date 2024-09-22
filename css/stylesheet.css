@@ -1,0 +1,200 @@
+nav {
+  /* Här ligger min navbar som jag skappade en egen div för. Min navbar har en höjd, Bakgrund, Självklart centrerad samt en display flex. Sen finns redd och border m.m */
+  height: 70px;
+  background: #8291b7;
+  padding: 3px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  box-shadow: 0px 0px 20px black;
+}
+.namnet {
+  background: #343568;
+  display: center;
+  text-align: center;
+  height: 150px;
+  margin: 0;
+  padding: 3px;
+  box-shadow: 0px 0px 20px black;
+  color: #ffffff;
+}
+
+.wrapper {
+  background-color: #70acca;
+  margin: 0;
+  padding: 25px;
+}
+.postone {
+  border: 3px solid black;
+  padding: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  font-size: larger;
+}
+
+.blogimage {
+  width: 25%;
+  height: 160px;
+  border: 3px solid rgb(37, 80, 222);
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+a.button {
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  color: black;
+  background-color: rgb(177, 117, 7);
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 475px;
+  font-size: 15px;
+}
+
+a.button:hover {
+  background: rgb(75, 73, 73);
+  color: white;
+  cursor: pointer;
+  border: double;
+  border-color: rgb(11, 40, 184);
+  border-radius: 10px;
+}
+
+
+.logo {
+  width: 100px;
+  display: flex;
+  justify-content: left;
+  margin-left: 15px;
+  opacity: 1;
+  padding: 25px;
+}
+
+.column {
+  float: left;
+  width: 2%;
+  padding: 5px;
+}
+
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 135px;
+}
+
+.socialsimg {
+  width: 25px;
+  padding: 0.5px;
+}
+
+.thepost {
+  font-family: Verdana;
+  margin-bottom: 60px;
+}
+
+
+.whitespaceh5 {
+  white-space: pre;
+}
+
+.postborder {
+  border-bottom: 2px solid black;
+  padding: 5px;
+  width: 900px;
+}
+
+.inlinetext,
+
+.blogimage {
+  display: inline-block;
+}
+
+.searchbar {
+  font-size: large;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+a.searchbar:hover {
+  background: rgb(17, 138, 159);
+  color: white;
+  cursor: pointer;
+  border: double;
+  border-color: rgb(24, 27, 219);
+  border-radius: 10px;
+}
+
+.searchbarh1 {
+  text-align: left;
+}
+
+.search {
+  padding: 5px;
+  margin-left: 100px;
+  border: 1px solid red;
+  width: 225px;
+  text-align: left;
+  background-color: rgb(21, 105, 183);
+  float: right;
+}
+
+
+.searchborder {
+  background-color: red;
+}
+
+.pnamnet {
+  margin-right: 10%;
+}
+
+.tags {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: medium;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.placeholder {
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 3px;
+}
+
+.fot footer { /* Här ligger min footer som jag även har bakgrundsfärgen i och kanterna på min border samt centrerat den.*/
+  display: flex;
+  justify-content: center;
+  background: #343568;
+  width: 100%;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.fot footer section { /* Här ligger texten till min footer. Där jag använd padding/margin för att göra finare samt valt färg och justerat plats på texten via flexbox.*/
+  padding: 5px;
+  margin: 2px;
+  flex: auto;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.fot footer a { /* Här ligger min högra samt vänstra text i footern. Dom ligger i en .a för att kunna bifoga länkar. Ligger även färg, Flexbox justeringar, Samt så tog jag bort strecket under.*/
+  padding: 5px;
+  margin: 2px;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.fot footer a:hover { /* Här ligger men hover över texten i footern. Så att jag får en fin bakgrund när jag har musen över. Samt border typ och storlek.*/
+  background: rgb(80, 78, 78);
+  border-radius: 5px;
+  border-style: double;
+  border-color: rgb(179, 54, 23);
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
